@@ -1,0 +1,235 @@
+/* Color Palette
+
+Dried Chamomile (yellow brown)
+#D0BB7A
+208,187,122
+
+Araucana Teal
+#7BBDA1
+123,189,161
+
+Awning
+#709E84
+112,158,132
+
+Rainforest
+#549086
+84,144,134
+
+Persimmon Red
+#E2836D
+226,131,109
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+
+h1 {
+  font-family: rouge-script;
+  font-weight: 500;
+  font-size: 160px;
+}
+
+
+
+h2, h3, h4, p, nav, small, form {
+  font-family: merriweather;
+}
+
+
+h2 {
+  font-weight: 500;
+  font-size: 80px;
+  
+}
+
+h3 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+small {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+
+
+a:link {
+  color: #549086;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #549086;
+}
+
+a:hover {
+  color: #E2836D;
+}
+
+nav {
+  padding-top: 20px;
+
+}
+nav li {
+  
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  display: inline;
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+header {
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+.main {
+    padding-bottom: 150px;
+}
+  
+
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #D0BB7A;
+}
+
+
+.quote {
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_jane {
+  padding-bottom: 50px;
+}
+
+.book {
+  padding-left: 50px;
+  padding-bottom: 100px;
+  float: left;
+
+}
+
+.cover {
+  background-color: rgba(225, 225, 225, 1);
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+footer {
+  background: rgba(225,225,225,1);
+  padding-left: 50px;
+}
+
+.lady {
+  padding-left: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+  
+}
+
+.lady_portrait {
+  background-color: rgba(225, 225, 225, 1);
+  width: 300px;
+  height: 300px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border-radius: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+
+
+.lady p {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+
+}
+
+.mapImg img {
+  width: 100%;
+}
+
+
+.about_me {
+  //background: rgba(225, 225, 225, 1);
+  padding: 50px;
+}
+
+
+input {
+  margin: 10px 0px 10px 0px;
+  font-family: Helvetica;
+  line-height: 1.4;
+  display: inline-block;
+  width: 490px;
+  padding: 5px;    
+  border: none;
+  box-sizing: border-box;
+}
+
+.quote_form {
+  margin: 10px;
+  width: 500px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.quote_form .comment_box input {
+line-height: 200px;
+}
+
+
+label {
+  display: block;
+}
+
+.quote_form input[type="button"]
+{
+  font-family: merriweather;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  line-height: 2;
+  background-color: #549086;
+  color: #fff;
+}
+
