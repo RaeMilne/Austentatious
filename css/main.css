@@ -38,8 +38,6 @@ h1 {
   font-size: 160px;
 }
 
-
-
 h2, h3, h4, p, nav, small, form {
   font-family: merriweather;
 }
@@ -123,10 +121,14 @@ footer {
 }
 
 
-#quote {
+.wrapper #quote {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.wrapper #quote:click {
+  color: #E2836D;
 }
 
 .about_jane {
